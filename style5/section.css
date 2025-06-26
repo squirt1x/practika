@@ -1,0 +1,164 @@
+.contacts-section {
+  padding: 50px 0;
+}
+
+.contacts-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 0 20px;
+}
+
+
+.contacts-title {
+  color: #f60;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.contacts-description {
+  color: #333;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.contacts-info p {
+  margin-bottom: 12px;
+  line-height: 1.4;
+}
+
+.work-hours {
+  color: #666;
+  font-family: 'Raleway';
+}
+
+.phone-link {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s;
+  white-space: nowrap;
+}
+
+.phone-link:hover {
+  color: #f60;
+  text-decoration: underline;
+}
+
+.address {
+  position: relative;
+}
+
+.address::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 4px;
+  width: 16px;
+  height: 16px;
+}
+.contacts-section {
+  padding: 50px 20px;
+}
+
+.contacts-container {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 85px;
+}
+
+.office-card,
+.production-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 30px;
+}
+
+.contacts-title {
+  font-family: 'Raleway';
+  font-size: 24px;
+  color: #f60;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.contacts-description {
+  font-size: 20px;
+  font-family: 'Raleway';
+  color: #333;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.contacts-info p {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333;
+  font-family: 'Raleway';
+}
+
+.phone-link {
+  font-size: 20px;
+  font-family: 'Raleway';
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  white-space: nowrap;
+}
+
+.phone-link:hover {
+  color: #f60;
+  text-decoration: underline;
+}
+
+.address {
+  font-family: 'Raleway';
+  position: relative;
+  color: #333;
+  line-height: 1.5;
+  font-size: 20px;
+}
+
+.address::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 4px;
+  width: 16px;
+  height: 16px;
+  background-image: url("../img/location-icon.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 845px) {
+  .contacts-container {
+    gap: 30px;
+  }
+  .contacts-section{
+    padding: 50px 0px;
+  }
+}
+@media (max-width: 470px) {
+  .contacts-description{
+    font-size: 14px;
+  }
+  .contacts-info p{
+    font-size: 14px;
+  }
+  .phone-link{
+    font-size: 14px;
+  }
+  .address{
+    font-size: 14px;
+  }
+  .contacts-title{
+    font-size: 20px;
+  }
+}
